@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>$(AssemblyName)</Title>
+    <VersionPrefix>8.0.2</VersionPrefix>
+    <Product>$(AssemblyName)</Product>
+    <Authors>Vizel Leonid</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Description>Сервисы записи, чтения и архивирования файлов на Minio-like S3 для Web-приложений</Description>
+    <PackageReleaseNotes>Initial commits and testing</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Files Archive Write Writer Read Reader AspNetCore ASP.NET</PackageTags>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Web.Files/tree/master/NachtWiesel.Web.Files</RepositoryUrl>
+    <PackageProjectUrl>https://public.weasel-farmers.ru/</PackageProjectUrl>
+    <Copyright>Vizel Leonid</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Minio" Version="6.0.5" />
+  </ItemGroup>
+
+</Project>
