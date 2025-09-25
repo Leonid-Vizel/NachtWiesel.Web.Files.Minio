@@ -16,7 +16,7 @@
     <Description>Сервисы записи, чтения и архивирования файлов на Minio-like S3 для Web-приложений</Description>
     <PackageReleaseNotes>Initial commits and testing</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>Files Archive Write Writer Read Reader AspNetCore ASP.NET</PackageTags>
+    <PackageTags>Files Archive Write Writer Read Reader AspNetCore ASP.NET S3 Minio Maxio Upload Download</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Web.Files/tree/master/NachtWiesel.Web.Files</RepositoryUrl>
