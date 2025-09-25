@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>$(AssemblyName)</Title>
-    <VersionPrefix>8.0.2</VersionPrefix>
+    <VersionPrefix>9.0.2</VersionPrefix>
     <Product>$(AssemblyName)</Product>
     <Authors>Vizel Leonid</Authors>
     <PackageIcon>icon.png</PackageIcon>

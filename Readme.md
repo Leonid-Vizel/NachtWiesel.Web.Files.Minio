@@ -56,6 +56,6 @@ Secret-ключ
 
 ## Использование
 
-1. Внедрите зависимость IFileWriterFactory/IFileReaderFactory/IArchiverFactory в ваш сервис
+1. Внедрите зависимость IMinioFileWriterFactory/IMinioFileReaderFactory/IMinioArchiverFactory в ваш сервис
 2. Вызовите метод Create("Сюда вставьте название конфигурации")
 3. Пользуйтесь
