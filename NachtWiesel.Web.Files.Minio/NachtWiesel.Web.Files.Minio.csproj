@@ -19,7 +19,7 @@
     <PackageTags>Files Archive Write Writer Read Reader AspNetCore ASP.NET S3 Minio Maxio Upload Download</PackageTags>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Web.Files/tree/master/NachtWiesel.Web.Files</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Leonid-Vizel/NachtWiesel.Web.Files.Minio/tree/master/NachtWiesel.Web.Files.Minio</RepositoryUrl>
     <PackageProjectUrl>https://public.weasel-farmers.ru/</PackageProjectUrl>
     <Copyright>Vizel Leonid</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
